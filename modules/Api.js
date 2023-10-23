@@ -31,7 +31,7 @@ export default class Api {
 
     await sharePopoutMedia(url, "all", title, loop, mute);
   }
-
+  console.log("Hello World")
   /**
    * Share a media in a popout to a selection of players
    * @param {string} url url to the media
